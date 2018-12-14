@@ -1,3 +1,5 @@
+
+##This is a function to cache the inverse of the input object, params x<-input matrix
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -13,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##This is a function that compute the inverse of the matrix, params x<-cached matrix
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
